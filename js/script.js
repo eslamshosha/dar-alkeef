@@ -228,7 +228,7 @@ $(document).ready(function () {
   });
   ////////////////add swiper carsoul to class feature////////////////////////////////
 
-  if ($(window).width() < 1199) {
+  if ($(window).width() < 991) {
     $(".features .col-md-3.col-xs-12").contents().unwrap();
     $(".features .row").contents().unwrap();
     $(".feature-section .features").addClass("swiper-container");
