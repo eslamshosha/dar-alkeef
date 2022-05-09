@@ -1542,10 +1542,9 @@ html[dir="rtl"] .footer-accordion.active:after {
     align-items: flex-start;
     /* margin-inline-start: 7px; */
   }
-  .nav-head .dropdown-content,
-  .big-menu .dropdown-content {
+  .nav-head .dropdown-content{
     background-color: transparent;
-    text-align: start;
+    text-align: center;
     min-width: 100%;
     padding: 10px 0 0;
     padding-inline-start: 10px;
