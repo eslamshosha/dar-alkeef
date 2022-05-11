@@ -1126,10 +1126,11 @@ footer {
   padding-top: 80px;
   background-color: var(--main-color);
   position: relative;
+  overflow: hidden;
 }
 .footer-background {
   position: absolute;
-  bottom: 0;
+  top: 18px;
   inset-inline-end: 0;
 }
 html[dir="ltr"] .footer-background {
